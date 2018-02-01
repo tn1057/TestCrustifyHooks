@@ -100,7 +100,7 @@
 #define MCR_DBF           ((uint32_t)0x00010000) /* software master reset */
 
 /* CAN Mailbox Transmit Request */
-#define TMIDxR_TXRQ       ((uint32_t)0x00000001) /* Transmit mailbox request */
+#define TMIDxR_TXRQ       ((uint32_t)   0x00000001) /* Transmit mailbox request */
 
 /* CAN Filter Master Register bits */
 #define FMR_FINIT         ((uint32_t)0x00000001) /* Filter init mode */
