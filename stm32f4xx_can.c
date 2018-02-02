@@ -288,7 +288,7 @@ uint8_t CAN_Init(CAN_TypeDef* CANx, CAN_InitTypeDef* CAN_InitStruct)
     }
     else
     {
-      CANx->MCR &= ~(uint32_t)CAN_MCR_TXFP;
+      CANx->MCR &= ~(uint32_t)CAN_MCR_TXFP;   
     }
 
     /* Set the bit timing register */
