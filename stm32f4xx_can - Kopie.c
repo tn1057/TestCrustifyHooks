@@ -172,9 +172,9 @@ void CAN_DeInit(CAN_TypeDef* CANx)
   if (CANx == CAN1)
   {
     /* Enable CAN1 reset state */
-    RCC_APB1PeriphResetCmd(RCC_APB1Periph_CAN1, ENABLE);            
+    RCC_APB1PeriphResetCmd(RCC_APB1Periph_CAN1, ENABLE);               
     /* Release CAN1 from reset state */
-    RCC_APB1PeriphResetCmd(RCC_APB1Periph_CAN1, DISABLE);
+    RCC_APB1PeriphResetCmd(RCC_APB1Periph_CAN1, DISABLE);    
   }
   else
   {
