@@ -523,7 +523,7 @@ void CAN_DBGFreeze(CAN_TypeDef* CANx, FunctionalState NewState)
 void CAN_TTComModeCmd(CAN_TypeDef* CANx, FunctionalState NewState)
 {
   /* Check the parameters */
-  assert_param(IS_CAN_ALL_PERIPH(CANx));
+  assert_param(IS_CAN_ALL_PERIPH(CANx));          
   assert_param(IS_FUNCTIONAL_STATE(NewState));
   if (NewState != DISABLE)
   {
