@@ -1,4 +1,4 @@
-#!/bin/sh
+#!C:\Program Files (x86)\Git\usr\bin
 #
 # An example hook script to verify what is about to be committed.
 # Called by "git commit" with no arguments.  The hook should
