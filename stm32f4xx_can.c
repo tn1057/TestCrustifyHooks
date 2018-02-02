@@ -18,7 +18,7 @@
                         ##### How to use this driver #####
  ===============================================================================
     [..]
-      (#) Enable the CAN controller interface clock using
+      (#) Enable              the CAN controller interface clock using
           RCC_APB1PeriphClockCmd(RCC_APB1Periph_CAN1, ENABLE); for CAN1
           and RCC_APB1PeriphClockCmd(RCC_APB1Periph_CAN2, ENABLE); for CAN2
       -@- In case you are using CAN2 only, you have to enable the CAN1 clock.
