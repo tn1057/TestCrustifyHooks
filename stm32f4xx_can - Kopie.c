@@ -598,7 +598,7 @@ uint8_t CAN_Transmit(CAN_TypeDef* CANx, CanTxMsg* TxMessage)
   }
   else
   {
-    transmit_mailbox = CAN_TxStatus_NoMailBox;
+    transmit_mailbox = CAN_TxStatus_NoMailBox;    
   }
 
   if (transmit_mailbox != CAN_TxStatus_NoMailBox)
