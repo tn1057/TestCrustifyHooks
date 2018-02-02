@@ -272,7 +272,7 @@ uint8_t CAN_Init(CAN_TypeDef* CANx, CAN_InitTypeDef* CAN_InitStruct)
     }
 
     /* Set the receive FIFO locked mode */
-    if (CAN_InitStruct->CAN_RFLM == ENABLE)
+    if (CAN_InitStruct->CAN_RFLM == ENABLE)            
     {
       CANx->MCR |= CAN_MCR_RFLM;
     }
