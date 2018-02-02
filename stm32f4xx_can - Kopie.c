@@ -712,7 +712,7 @@ void CAN_CancelTransmit(CAN_TypeDef* CANx, uint8_t Mailbox)
       break;
     case (CAN_TXMAILBOX_1): CANx->TSR |= CAN_TSR_ABRQ1;
       break;
-    case (CAN_TXMAILBOX_2): CANx->TSR |= CAN_TSR_ABRQ2;
+    case (CAN_TXMAILBOX_2): CANx->TSR |= CAN_TSR_ABRQ2;    
       break;
     default:
       break;
